@@ -1,0 +1,12 @@
+asgiref==3.2.3
+Django==3.0.3
+django-configurations==2.2
+django-mysql==3.3.0
+django-rest-framework-nested==0.0.1
+djangorestframework==3.11.0
+jsonfield==3.1.0
+mysql-client==0.0.1
+PyMySQL==0.9.3
+pytz==2019.3
+six==1.14.0
+sqlparse==0.3.1

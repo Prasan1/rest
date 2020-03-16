@@ -18,8 +18,8 @@ Now our main intention is to create a service that would allow us to search and 
 
 GET /api/
 {
-    "superhero": "http://localhost:8000/api/superhero/", 
-    "members": "http://localhost:8000/api/members/"
+    "superhero": "{url}/api/superhero/", 
+    "members": "{url}/api/members/"
 }
 
 2.The below api should provide all the members data. 
@@ -33,4 +33,6 @@ GET /api/
 /api/members/?active=true  => list members that holds active = true value.
 
 5. Similarly, we should be able to Create Read Update Delete on JSONField as well as the entire database table. 
+
+
 

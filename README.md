@@ -33,6 +33,4 @@ GET /api/
 /api/members/?active=true  => list members that holds active = true value.
 
 5. Similarly, we should be able to Create Read Update & Delete on JSONField and also on superhero endpoint for entire table filed. 
-
-
-
+   Things to ponder: if anybody want to change the other field in database they should be able to do through the json data column. 

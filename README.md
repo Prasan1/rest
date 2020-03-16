@@ -2,7 +2,7 @@
 Project Descriptions:
 ---------------------
 
-The mysql database will contains many fields and a JSONField.JSONField is the Json data of all other fileds. e.g
+The mysql database will contains many fields and a JSONField. JSONField is the Json data of all other fileds in json form. e.g
 
 id | squad_name | hometown | active | formed | members
 
@@ -25,14 +25,14 @@ GET /api/
 2.The below api should provide all the members data. 
 	/api/members/
 
-3. The below api should provide all the member data belong to primary key 24.
+3. The below api should provide all the member data that belongs to primary key 24.
 	/api/members/24/
 
-4. The below api should give the list of member with primakry key whose members are active. This is just an example. We should be able to search the member for property value. 
+4. The below api should give the list of member with primakry key whose members are active. This is just an example. We should be able to search member for other property values also. Like in this case squad_name, formed, hometown.  
 
 /api/members/?active=true  => list members that holds active = true value.
 
-5. Similarly, we should be able to Create Read Update Delete on JSONField as well as the entire database table. 
+5. Similarly, we should be able to Create Read Update & Delete on JSONField and also on superhero endpoint for entire table filed. 
 
 
 
